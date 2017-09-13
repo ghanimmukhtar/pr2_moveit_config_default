@@ -109,7 +109,7 @@
     </group_state>
     <group_state name="head_down" group="head">
         <joint name="head_pan_joint" value="0" />
-        <joint name="head_tilt_joint" value="0.6499" />
+        <joint name="head_tilt_joint" value="1." />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="right_eef" parent_link="r_wrist_roll_link" group="right_gripper" />

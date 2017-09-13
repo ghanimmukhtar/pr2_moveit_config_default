@@ -515,7 +515,7 @@ Visualization Manager:
         Goal State Color: 250; 128; 0
         Interactive Marker Size: 0
         Joint Violation Color: 255; 0; 255
-        Planning Group: left_arm
+        Planning Group: head
         Query Goal State: true
         Query Start State: false
         Show Workspace: false
@@ -993,8 +993,8 @@ Visualization Manager:
       Selectable: true
       Size (Pixels): 3
       Size (m): 0.01
-      Style: Flat Squares
-      Topic: /narrow_stereo_textured/points2
+      Style: Points
+      Topic: /head_mount_kinect2/depth_registered/points
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -1014,22 +1014,22 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 4.71505
+      Distance: 1.49221
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.06
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.113567
-        Y: 0.10592
-        Z: 2.23518e-07
+        X: 0.50085
+        Y: 0.15696
+        Z: 1.04309e-07
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.454797
+      Pitch: 0.284798
       Target Frame: base_footprint
       Value: XYOrbit (rviz)
-      Yaw: 5.88311
+      Yaw: 4.87811
     Saved: ~
 Window Geometry:
   Displays:
@@ -1047,5 +1047,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1855
-  X: 55
-  Y: -14
+  X: 65
+  Y: 24
